@@ -1,13 +1,13 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:948297466112:task-definition/latarea0:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:948297466112:task-definition/latarea7:1",
     "containerDefinitions": [
         {
-            "name": "latarea0",
-            "image": "948297466112.dkr.ecr.us-east-2.amazonaws.com/latarea0",
+            "name": "latarea7",
+            "image": "948297466112.dkr.ecr.us-east-2.amazonaws.com/latarea7",
             "cpu": 0,
             "portMappings": [
                 {
-                    "name": "latarea0-80-tcp",
+                    "name": "latarea7-80-tcp",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
@@ -22,7 +22,7 @@
             "ulimits": []
         }
     ],
-    "family": "latarea0",
+    "family": "latarea7",
     "taskRoleArn": "arn:aws:iam::948297466112:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::948297466112:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
@@ -60,7 +60,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-14T16:03:33.099Z",
+    "registeredAt": "2023-07-14T17:32:55.993Z",
     "registeredBy": "arn:aws:iam::948297466112:root",
     "tags": []
 }
